@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Gmail-like Layout</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="CGSProfile.html">
+            <i class="fas fa-bars"></i> NS
+        </a>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search mail" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </form>
+        <div class="navbar-icons ml-3">
+            <i class="fas fa-question-circle"></i>
+            <i class="fas fa-cog"></i>
+            <i class="fas fa-th"></i>
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </nav>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 col-3 bg-light sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#"><i class="fas fa-inbox"></i> Inbox</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-star"></i> Starred</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-clock"></i> Snooz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-paper-plane"></i> Sent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-th"></i> Calendar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-upload"></i> Upload</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-star"></i> Starred</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-8 col-sm-9 col-9 main-content">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#primary">Primary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#promotions">Promotions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#social">Social</a>
+                    </li>
+                </ul>
+                <div class="tab-content mt-3">
+                    <div id="primary" class="tab-pane fade show active">
+                        <div class="email-list">
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Google</strong> - Security alert - Your password was changed...
+                                <span class="float-right">10:34</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Google</strong> - Your Google Account was recovered successfully...
+                                <span class="float-right">16:39</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Google</strong> - Your Google security Feed...
+                                <span class="float-right">19:34</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Naukri Campus</strong> - Elevate your Cv at INdia's Biggest Skill Event..
+                                <span class="float-right">3:34</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Azure Devops</strong> - Welcome to Azyre Devops
+                                <span class="float-right">14:34</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>JObsora</strong> - Immediate Need: 30+ All jobs Sepcialist Roles....
+                                <span class="float-right">21:34</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Intershala</strong> - Top WFH jobs with up to 10LPA -APPLY Recived 
+                                <span class="float-right">11:20</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Team Unstop</strong> - Your Google Account was recovered successfully...
+                                <span class="float-right">12:30</span>
+                            </div><br>
+                            <div class="email-item">
+                                <input type="checkbox" class="mr-2">
+                                <i class="fas fa-star"></i>
+                                <strong>Google</strong> - Your Google Account was recovered successfully...
+                                <span class="float-right">10:34</span><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="promotions" class="tab-pane fade">
+                        <p>Here is some promotional content...
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque rerum nesciunt 
+                            nemo maxime distinctio officia harum autem obcaecati quas, dolor sit suscipit placeat
+                             aliquam, labore itaque et voluptate doloremque? Molestiae?
+
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam quisquam repellendus quos ipsum
+                             , ullam debitis voluptates, assumenda commodi quae vitae optio officiis earum magni nam iusto unde
+                              dolorum rem est? Lorem ipsum dolor sit amet consectetur adipisicing elit. At vitae sit tempora maxime atque, 
+                              illum, beatae enim eveniet magni ad corporis temporibus voluptate incidunt repudiandae numquam assumenda! Eum,
+                               aut doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit itaque, non aut quidem officia accusantium optio error. Sint, voluptatem quo repellendus, libero ipsum assumenda, vero molestiae odit atque non ducimus!
+                               Dolore esse consequuntur amet magnam quas exercitationem at ut suscipit. Sequi provident ducimus fugiat incidunt officiis qui expedita, dolor aperiam? Molestias animi alias cupiditate quam, ut quaerat tempore! Aliquam, illo?
+                               Ullam, dicta repellendus dolorem facilis quaerat officiis, debitis sit perspiciatis iure necessitatibus doloribus hic aut omnis! Fuga, sit temporibus error quas a vitae quaerat eum iure repudiandae tenetur reprehenderit reiciendis?
+                               In facilis numquam sint pariatur nisi dolore, commodi, deleniti, molestiae omnis placeat nesciunt est mollitia veniam! Suscipit blanditiis nostrum eius qui similique provident? Excepturi obcaecati mollitia, et consequatur ratione eos!
+                               Fugiat, voluptatum hic consequatur ipsa laudantium perferendis ipsam voluptatem, porro cupiditate quidem, odit velit ullam eaque ipsum laboriosam. Laboriosam dicta molestias alias soluta perferendis nihil vel possimus corrupti assumenda facere.
+                               Molestiae accusantium repellat nesciunt nostrum eligendi iure vitae numquam maxime, totam ducimus libero quam atque hic impedit debitis, inventore rem exercitationem adipisci. Harum eos, vel vero non perferendis ullam veritatis!
+                        </p> 
+                    </div>
+                    <div id="social" class="tab-pane fade">
+                        <p>Here is some social content...
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate harum quia minima cumque totam, 
+                            debitis perferendis eaque autem, ut consequatur ducimus! Minus perferendis odio, illo iste labore ea sed.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maxime. Sint, modi quae quia perferendis
+                             tenetur cupiditate ex quod tempora assumenda optio, dicta ad quidem praesentium minus unde ipsa amet.
+
+                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus quisquam modi maxime qui repellat, sapiente, autem, nam eaque ipsa similique labore. Officiis, non ex. Fuga rem odio dicta aliquam necessitatibus.
+                             At omnis cupiditate esse doloribus expedita a dolorem ratione suscipit vitae beatae? Nesciunt itaque delectus dolores cum nulla! Facilis animi in eligendi iste sed itaque, quia incidunt voluptates ipsum fugit.
+                             Odit ipsum minima sit voluptate, quia velit reprehenderit mollitia, dolor tenetur eveniet harum incidunt at totam. In, vitae modi magni, laborum est debitis explicabo labore ducimus ipsam, quae accusamus rerum?
+                             Ullam quasi aspernatur in optio, illo nihil explicabo libero excepturi ipsam ipsum nostrum cumque. Soluta officiis fugit reprehenderit officia velit, voluptate sint cum, praesentium voluptatum laudantium facilis minima, dolorum dolores.
+                             Explicabo quod, nemo quis doloribus eaque consectetur ipsa porro sunt voluptatibus illum, optio corporis consequuntur fuga omnis nostrum quo accusantium obcaecati praesentium vitae! Repellat magni inventore explicabo, quidem ullam eos?
+                             Illum rerum reprehenderit a ad distinctio magnam provident sequi nemo dolor molestias iure soluta, architecto harum ipsa dolores, dolore quam optio quibusdam deleniti corporis facilis sed veritatis. Consectetur, maiores at?
+                             Molestias repudiandae illo recusandae! Eveniet vitae molestiae perferendis suscipit itaque omnis hic magni facere labore quos reprehenderit atque maiores voluptatum sapiente aspernatur laborum accusantium, sed temporibus voluptatibus iste tenetur aut?
+                             Dolores suscipit, totam ipsam dolore assumenda aperiam laborum minima consequuntur saepe odit omnis, aliquid a quod, vitae ea quaerat dolorum expedita. Possimus, blanditiis? Magni alias debitis ex ea illum deserunt.
+                             Deleniti, error natus repudiandae reprehenderit earum commodi id recusandae quasi voluptas, voluptate architecto! Quisquam vero fugit assumenda est, accusantium temporibus minus libero architecto ea esse repellat eum maiores ipsa consequatur?
+                             Placeat excepturi dolorum a, nisi maiores, odit quos aliquid voluptatum natus sequi voluptas iste distinctio ullam itaque eos. Adipisci cupiditate cumque doloremque nisi accusamus reprehenderit itaque earum ab officia dignissimos?
+                             Voluptatibus voluptates, rerum tempore error ab ducimus veniam non quod aspernatur est? Obcaecati doloremque possimus, recusandae corporis quam vitae id reiciendis eum, blanditiis temporibus exercitationem ipsa sunt, delectus harum modi?
+                             Excepturi doloremque at itaque quo amet cumque rem earum omnis adipisci incidunt nemo alias consequuntur delectus, quas hic reiciendis aliquid ullam, dicta quisquam tenetur possimus ducimus! In perferendis amet reprehenderit.
+                             Quis inventore dignissimos quisquam necessitatibus consectetur perspiciatis, animi quia cupiditate perferendis pariatur cumque sapiente labore! Culpa mollitia, iusto alias praesentium quaerat dignissimos est nisi possimus molestiae facere architecto laborum ad.
+                             Molestias voluptatem nobis consequuntur vel dolor, maxime perspiciatis reiciendis officia expedita suscipit modi assumenda minima culpa fuga exercitationem quia perferendis rem, dolorum, doloribus vitae nam cumque. Inventore voluptatibus culpa amet.
+                             Similique nesciunt distinctio obcaecati labore dolor maxime nam illum quibusdam animi, aut sit vitae ad rerum minima quasi voluptatem quis nobis rem natus reiciendis eaque. Iste ea incidunt accusamus praesentium?
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

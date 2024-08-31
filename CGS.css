@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.sidebar {
+    padding-top: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.nav-link i {
+    margin-right: 8px;
+}
+
+.email-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.email-item strong {
+    margin-right: 5px;
+}

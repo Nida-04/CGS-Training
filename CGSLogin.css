@@ -1,0 +1,49 @@
+body {
+    background-color: #f1f3f4;
+}
+
+.card {
+    border-radius: 20px; /* Rounded corners for the card */
+}
+
+.card .border-right {
+    border-right: 1px solid #ddd;
+}
+
+.email-dropdown {
+    background-color: #f1f3f4; /* Light background color for dropdown button */
+    color: #202124; /* Darker text color */
+    border: 1px solid #ddd; /* Border similar to Gmail style */
+    border-radius: 12px; /* Rounded corners for dropdown button */
+    padding: 5px 15px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.email-dropdown:hover, .email-dropdown:focus {
+    background-color: #e8eaed; /* Hover color similar to Gmail */
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.btn-primary:hover {
+    background-color: #1558b0;
+    border-color: #1558b0;
+}
+
+input[type="password"] {
+    border-radius: 20px; /* Rounded corners for the password input */
+    padding: 12px;
+    font-size: 14px;
+}
+
+h5, p {
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 0.9em;
+}
